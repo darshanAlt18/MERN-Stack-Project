@@ -1,0 +1,27 @@
+/* toastify.css */
+.Toastify__toast {
+    background: #333; /* Background color */
+    color: white; /* Text color */
+    border: 1px solid #555; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    font-size: 16px; /* Change font size if needed */
+}
+
+.Toastify__toast--success {
+    background: #28a745; /* Green background for success */
+}
+
+.Toastify__toast--error {
+    background: #dc3545; /* Red background for error */
+}
+
+.Toastify__toast-body {
+    font-weight: bold; /* Bold text */
+}
+
+/* Customize the position and padding of the toast */
+.Toastify {
+    padding: 10px;
+    top: 20px; /* Adjust the top position */
+}
